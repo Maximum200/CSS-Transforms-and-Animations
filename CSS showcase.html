@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Intentionally blank</th>
+        <th>transform-origin: center</th>
+        <th>transform-origin: top left</th>
+        <th>transform-origin: bottom right</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rotated by 45 degrees:</td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block origin"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block origin1"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block origin2"></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>Rotate X: 45 degrees</td>
+        <td>Rotate Y: 45 degrees</td>
+        <td>Rotate Z: 45 degrees</td>
+      </tr>
+      <tr>
+        <td>Rotated by 45 degrees:</td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block rotate"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block rotate1"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block rotate2"></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>Scale X: 50%</td>
+        <td>Scale Y: 50%</td>
+        <td>Scale Z: 50%</td>
+      </tr>
+      <tr>
+        <td>Scaled by 50%:</td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block scale"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block scale1"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block scale2"></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>Translate X: 50%</td>
+        <td>Translate Y: 50%</td>
+        <td>Translate Z: 50%</td>
+      </tr>
+      <tr>
+        <td>Translated by 50%:</td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block translate"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block translate1"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block translate2"></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>Skew X: 15 degrees</td>
+        <td>Skew Y: 15 degrees</td>
+        <td>Skew X & Y: 15 degrees</td>
+      </tr>
+      <tr>
+        <td>Skewed by 15 degrees:</td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block skew"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block skew1"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block skew2"></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>Unchanged Perspective Value</td>
+        <td>Negative Perspective Value: 50%</td>
+        <td>Positive Perspective Value: 50%</td>
+      </tr>
+      <tr>
+        <td>Perspective shift by 50%/0:</td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block perspective"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block perspective1"></td>
+        <td><img src="Screenshot 2023-04-16 141934.jpg" class="block perspective2"></td>
+      </tr>
+	  <tr>
+		<td>CSS Animations</td>
+	  </tr>	  
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>animation-duration: 2s</td>
+		<td>animation-duration: 5s</td>
+		<td>animation-duration: 10s</td>
+      </tr>
+      <tr>
+        <td>Animation: The changing colour of a block</td>
+        <td><div class="block change duration"></div></td>
+		<td><div class="block change duration1"></div></td>
+		<td><div class="block change duration2"></div></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>animation-timing-function: ease</td>
+		<td>animation-timing-function: linear</td>
+		<td>animation-timing-function: ease-in</td>
+      </tr>
+      <tr>
+        <td>Animation: The changing colour of a block</td>
+        <td><div class="block change anime"></div></td>
+		<td><div class="block change anime1"></div></td>
+		<td><div class="block change anime2"></div></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>animation-timing-function: ease-out</td>
+		<td>animation-timing-function: ease-in-out</td>
+		<td><a href = "https://cubic-bezier.com/">animation-timing-function: cubic-bezier(.74,.1,.05,.92)</a></td>
+      </tr>
+      <tr>
+        <td>Animation: The changing colour of a block</td>
+        <td><div class="block change anime3"></div></td>
+		<td><div class="block change anime4"></div></td>
+		<td><div class="block change anime5"></div></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>animation-delay: none</td>
+		<td>animation-delay: -2s</td>
+		<td>animation-delay: 2s</td>
+      </tr>
+      <tr>
+        <td>Animation: The changing colour of a block</td>
+        <td><div class="block change delay"></div></td>
+		<td><div class="block change delay1"></div></td>
+		<td><div class="block change delay2"></div></td>
+      </tr>
+	  <tr>
+        <td>Intentionally blank</td>
+        <td>animation-direction: reverse</td>
+		<td>animation-direction: alternate</td>
+		<td>animation-direction: alternate-reverse</td>
+      </tr>
+      <tr>
+        <td>Animation: The changing colour of a block</td>
+        <td><div class="block change direction"></div></td>
+		<td><div class="block change direction1"></div></td>
+		<td><div class="block change direction2"></div></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+tr:nth-of-type(even) {
+	background-color: #f2f2f2;
+}
+
+
+.block {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	border: 1px solid red;
+}
+
+.origin, .origin1, .origin2 {
+	transform: rotate(45deg);
+}
+
+.origin1 {
+	transform-origin: top left;
+}
+
+.origin2 {
+	transform-origin: bottom right;
+}
+
+.rotate {
+	rotate: x 45deg;
+}
+
+.rotate1 {
+	rotate: y 45deg;
+}
+
+.rotate2 {
+	rotate: z 45deg;
+}
+
+.scale {
+	transform: scale3d(0.5, 1, 1);
+}
+
+.scale1 {
+	transform: scale3d(1, 0.5, 1);
+}
+
+.scale2 {
+	transform: scale3d(1, 1, 0.5);
+}
+
+.translate {
+	transform: translate3d(50%, 0, 0);
+}
+
+.translate1 {
+	transform: translate3d(0, 50%, 0);
+}
+
+.translate2 {
+	transform: translate3d(0, 0, 50%);
+}
+
+.skew {
+	transform: skew(15deg);
+}
+
+.skew1 {
+	transform: skew(0, 15deg);
+}
+
+.skew2 {
+	transform: skew(15deg, 15deg);
+}
+
+.perspective {
+	transform: perspective(0);
+}
+
+.perspective1 {
+	transform: perspective(-50%);
+}
+
+.perspective2 {
+	transform: perspective(50%);
+}
+
+@keyframes colour-change {
+	0% {
+		background-color: red;
+	}
+	
+	50% {
+		background-color: yellow;
+	}
+	
+	100% {
+		background-color: blue;
+	}
+}
+
+.change {
+	animation-name: colour-change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.duration {
+	animation-duration: 2s;
+}
+
+.duration1 {
+	animation-duration: 5s;
+}
+
+.duration2 {
+	animation-duration: 10s;
+}
+
+.anime {
+	animation-timing-function: ease;
+}
+
+.anime1 {
+	animation-timing-function: linear;
+}
+
+.anime2 {
+	animation-timing-function: ease-in;
+}
+
+.anime3 {
+	animation-timing-function: ease-out;
+}
+
+.anime4 {
+	animation-timing-function: ease-in-out;
+}
+
+.anime5 {
+	animation-timing-function: cubic-bezier(.74,.1,.05,.92);
+}
+
+.delay {
+	animation-delay: 0s;
+}
+
+.delay1 {
+	animation-delay: -2s;
+}
+
+.delay2 {
+	animation-delay: 2s;
+}
+
+.direction {
+	animation-direction: reverse;
+}
+
+.direction1 {
+	animation-direction: alternate;
+}
+
+.direction2 {
+	animation-direction: alternate-reverse;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: 10%;
+}
+table {
+	border-collapse: collapse;
+	width: 90%;
+	height: 100%;
+	margin-top: 20%
+}
+th, td {
+	border: 1px solid black;
+	padding: 80px;
+	text-align: center;
+}
+th {
+	background-color: #f2f2f2;
+}
